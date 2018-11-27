@@ -1,0 +1,25 @@
+[
+    {
+        "name": "State",
+        "type": "dimension"
+    },
+    {
+        "name": "State Codes",
+        "type": "dimension"
+    },
+    {
+        "name": "Well-being Index",
+        "type": "measure",
+        "defAggFn": "max"
+    },
+    {
+        "name": "Latitude",
+        "type": "measure",
+        "defAggFn": "avg"
+    },
+    {
+        "name": "Longitude",
+        "type": "measure",
+        "defAggFn": "avg"
+    }
+]
